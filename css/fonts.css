@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "porter";
+  src: url(../fonts/porter-sans-inline-block-webfont.woff) format("woff");
+  font-weight: var(--font-weight-regular);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "jaini";
+  src: url(../fonts/Jaini-Regular.woff) format("woff");
+  font-weight: var(--font-weight-regular);
+  font-style: normal;
+}
