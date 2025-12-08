@@ -1,0 +1,88 @@
+/****tekst****/
+.block_1 {
+  font-family: "jaini";
+  background-color: #5c6558;
+  font-size: 1.2rem;
+  color: #d822d9;
+  padding: 50px;
+}
+
+.tekst_p {
+  font-family: "jaini";
+  color: white;
+  padding-block: 10px;
+}
+
+.forside_h1 {
+  font-family: "porter";
+  font-size: 1rem;
+  text-align: center;
+  padding: 10px;
+  color: rgb(39, 39, 39);
+}
+
+/****knap****/
+.book_btn {
+  background-color: #d822d9;
+  font-family: "jaini";
+  font-size: 1.7rem;
+  border: none;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.mere_btn {
+  background-color: #d822d9;
+  font-family: "jaini";
+  font-size: 1.5rem;
+  border: none;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: flex-end; /* moves button to the right */
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+/***forside tekst overlay***/
+.img-container {
+  position: relative;
+  display: inline-block;
+}
+
+.overlay-text {
+  font-family: "porter";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #d822d9;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/****baggrunds billede****/
+body {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../img/baggrund_website.png);
+  background-size: cover; /* scale to fill */
+  background-position: center; /* center the image */
+  background-repeat: no-repeat;
+}
+
+/*** artister ***/
+.grid_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.img_artister {
+  padding: 10px;
+}

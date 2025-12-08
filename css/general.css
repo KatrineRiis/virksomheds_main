@@ -1,0 +1,209 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/********** Logo **************/
+
+.logo {
+  font-size: 36px;
+  color: #c42bff;
+  font-family: serif;
+}
+
+/****************** menu ****************/
+header {
+  position: sticky;
+  top: 0;
+  background-color: #3a3a3a;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 5px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+  text-align: end;
+  font-family: sans-serif;
+}
+
+.burger {
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.burger .line {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff;
+  margin-bottom: 5px;
+  transition: 0.2s linear;
+}
+.burger {
+  display: none;
+}
+
+.knapheader a {
+  text-decoration: none;
+  background-color: #3a3a3a;
+  color: #ffffff;
+  border: 1px solid white;
+  padding: 10px 15px;
+  font-size: 1.5rem;
+}
+
+.knapheader a:hover {
+  color: #c42bff;
+}
+
+/********** Footer **************/
+
+.footer {
+  display: flex;
+  color: white;
+  font-family: sans-serif;
+}
+
+.venstreside {
+  background-color: #000000;
+  width: 50%;
+  padding: 30px;
+}
+
+.venstreside ul {
+  list-style: none;
+}
+
+.venstreside a {
+  color: white;
+  font-size: 1.2rem;
+  display: block;
+  margin: 40px 0;
+}
+
+.logofooter {
+  font-size: 4rem;
+  font-style: italic;
+  color: #db0dff;
+  margin-top: 9rem;
+}
+
+.højreside {
+  width: 50%;
+  background-color: #575757;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  align-items: center;
+}
+
+.bookfooter {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #3a3a3a;
+  border: 1px solid white;
+  padding: 25px 40px;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 8rem;
+  justify-content: center;
+  text-align: center;
+  display: inline-block;
+}
+
+.socialemedier {
+  background-color: #ddd;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 7rem;
+  padding: 40px;
+  margin-top: 8rem;
+}
+
+.socialemedier img {
+  width: 50px;
+  height: 50px;
+}
+
+@media screen and (min-width: 800px) {
+}
+
+/********** Mobilfirst **************/
+@media screen and (max-width: 800px) {
+  .menu {
+    display: none;
+  }
+  .burger {
+    display: block;
+    background-color: transparent;
+    border: 0;
+  }
+  .burger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+    transition: 0.2s linear;
+  }
+
+  .burger.active .line:nth-child(2) {
+    opacity: 0;
+    transition: 0.15s linear;
+  }
+
+  .burger.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+    transition: 0.2s linear;
+  }
+
+  nav.active .menu {
+    display: block;
+    background-color: #3a3a3a;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+
+  nav.active .menu li {
+    margin: 10px 20px;
+  }
+
+  nav.active .menu a {
+    font-size: 20px;
+  }
+}
