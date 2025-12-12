@@ -11,3 +11,17 @@
   font-weight: var(--font-weight-regular);
   font-style: normal;
 }
+
+@font-face {
+  font-family: "alumni";
+  src: url(../fonts/AlumniSans-VariableFont_wght.woff) format("woff");
+  font-weight: var(--font-weight-regular);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "dorsa";
+  src: url(../fonts/Dorsa-Regular.woff) format("woff");
+  font-weight: var(--font-weight-regular);
+  font-style: normal;
+}
