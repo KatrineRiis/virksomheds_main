@@ -36,6 +36,92 @@
     </header>
 
     <main>
+        <div class="grid_1">
+            <img class="pic1" src="billedebooking.png" alt="billede1">
+            <h1 class="overskrift">BOOK HER</h1>
+        </div>
+
+        <h2 class="overskrift2">UDFYLD NEDENUNDER</h2>
+        <section id="form-section">
+            <form id="webform">
+                <div class="group">
+                    <div class="form-group">
+                        <label for="f_name"></label>
+                        <input id="f_name" type="text" name="first_name" placeholder="Dit navn"
+                            aria-describedby="fname-error" required>
+                        <p class="error-message" id="fname-error">Please enter a value</p>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email"></label>
+                        <input id="email" type="text" name="e_mail" placeholder="Din email"
+                            aria-describedby="fname-error" required>
+                        <p class="error-message" id="fname-error">Please enter a value</p>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="telefonnummer"></label>
+                        <input id="telefonnummer" type="text" name="mobile" placeholder="Dit telefonnummer"
+                            aria-describedby="fname-error" required>
+                        <p class="error-message" id="fname-error">Please enter a value</p>
+                    </div>
+
+                </div>
+
+                <h5>Vælg din artist</h5>
+                <div class="group2">
+                    <label for="kategori"></label>
+                    <select name="mad" id="kategori">
+                        <option value="">Vælg</option>
+                        <option value="Moe">Moe</option>
+                        <option value="Athena">Athena</option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="tekstbox">
+                    <label for="beskrivelse"></label>
+                    <textarea name="beskriv" type="text" id="beskrivelse"
+                        placeholder="Beskriv din tatovering med detaljer" required></textarea>
+                </div>
+
+                <button type="submit" class="knap">SEND</button>
+
+            </form>
+
+
+        </section>
+
+
+        <h2 class="overskrift3">INFO</h2>
+
+
+        <div class="grid_1-1">
+
+            <div class="adresse">
+                <h4 class="overskrift4">Vores Adresse</h4>
+                <p class="tekst">Toftegårds Alle 25, 2500 København.<br><br>
+                    Kun 5 minutters gågang fra Valby station.<br><br>
+                    Kom et smut forbi.
+                </p>
+
+
+            </div>
+
+            <div class="tider">
+                <h4 class="overskrift4">Åbningstider</h4>
+                <p class="tekst">Mandag - Fredag 09:30-15:30<br>
+                    Lørdag lukket<br>
+                    Søndag lukket<br><br>
+                    Telefonnummer: +45 50162574</p>
+
+
+            </div>
+        </div>
+
+
 
     </main>
 
@@ -52,7 +138,9 @@
 
         <div class="højreside">
 
+
             <a href="book.html" class="bookfooter">BOOK TID</a>
+
 
             <div class="socialemedier">
                 <a href="https://www.instagram.com/saart.tattoo.cph/?hl=da"><img class="instagram"
@@ -67,6 +155,7 @@
 
 
     <script src="./js/booking.js"></script>
+
 
 
 
