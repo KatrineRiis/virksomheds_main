@@ -11,11 +11,15 @@ img {
   display: block;
 }
 
+body {
+  background-image: url("baggrund.png");
+}
+
 /********** Logo **************/
 
 .logo {
   font-size: 36px;
-  color: #8a4528;
+  color: #ba6028;
   font-family: serif;
 }
 
@@ -85,7 +89,7 @@ header {
 }
 
 .knapheader a:hover {
-  color: #8a4528;
+  color: #ba6028;
 }
 
 /*************** Forside billede *********************/
@@ -110,7 +114,7 @@ header {
   grid-column: 1;
   grid-row: 1;
   place-self: center;
-  background-color: #ddddddcc;
+  background-color: #954d20;
   padding: 20px 25px;
   font-size: 2.8rem;
   font-family: sans-serif;
@@ -118,8 +122,8 @@ header {
 
 /********** Form **************/
 .overskrift2 {
-  background-color: #3a3a3a;
-  color: #8a4528;
+  background-color: #353333;
+  color: #ba6028;
   text-align: center;
   font-family: sans-serif;
   padding: 20px 30px;
@@ -131,7 +135,7 @@ header {
 }
 
 #form-section {
-  background-color: #b9b6b6;
+  background-color: #4a4949;
   padding: 60px;
   margin: 0 auto;
   max-width: 650px;
@@ -144,16 +148,16 @@ header {
 }
 
 h5 {
-  color: #8c4628;
+  color: white;
   font-family: sans-serif;
-  font-size: 1rem;
+  font-size: 0.8rem;
   margin-left: 1.5rem;
   margin-top: 3.5rem;
 }
 
 .group2 {
   margin-bottom: 3rem;
-  margin-top: 0.4rem;
+  margin-top: 0.8rem;
   margin-left: 1.5rem;
 }
 
@@ -163,18 +167,20 @@ h5 {
 }
 
 .knap {
-  padding: 15px 35px;
-  background-color: #8c4628;
+  padding: 15px 30px;
+  background-color: #954d20;
   color: white;
   border: 1px solid white;
   font-family: sans-serif;
   margin-left: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 input {
   width: 80%;
   padding: 10px;
-  background-color: #3a3a3a;
+  background-color: #737272;
   color: white;
   border: none;
 }
@@ -182,7 +188,7 @@ input {
 select {
   width: 40%;
   padding: 10px;
-  background-color: #3a3a3a;
+  background-color: #737272;
   color: white;
   border: none;
 }
@@ -191,7 +197,7 @@ textarea {
   width: 80%;
   padding: 20px;
   height: 150px;
-  background-color: #3a3a3a;
+  background-color: #737272;
   color: white;
   border: none;
 }
@@ -235,8 +241,8 @@ textarea::placeholder {
   display: block;
   width: 50%;
   margin: auto;
-  background-color: rgb(193, 192, 192);
-  color: #8c4628;
+  background-color: #353333;
+  color: #ba6028;
   text-align: center;
   margin-top: 60px;
   padding: 10px 20px;
@@ -295,7 +301,7 @@ textarea::placeholder {
 .logofooter {
   font-size: 4rem;
   font-style: italic;
-  color: #8c4628;
+  color: #ba6028;
   margin-top: 9rem;
 }
 
