@@ -74,7 +74,7 @@ h3 {
 
 .btn-wrapper {
   display: flex;
-  justify-content: flex-end; /* moves button to the right */
+  justify-content: flex-end; /* knap til højre */
   margin-bottom: 20px;
   margin-top: 10px;
 }
