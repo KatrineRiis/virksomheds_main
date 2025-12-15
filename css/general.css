@@ -15,7 +15,7 @@ img {
 
 .logo {
   font-size: 36px;
-  color: #c42bff;
+  color: #ba6028;
   font-family: serif;
 }
 
@@ -85,7 +85,7 @@ header {
 }
 
 .knapheader a:hover {
-  color: #c42bff;
+  color: #ba6028;
 }
 
 /********** Footer **************/
@@ -116,7 +116,7 @@ header {
 .logofooter {
   font-size: 4rem;
   font-style: italic;
-  color: #db0dff;
+  color: #ba6028;
   margin-top: 9rem;
 }
 
