@@ -16,7 +16,7 @@ img {
 .logo {
   font-size: 36px;
   color: #ba6028;
-  font-family: serif;
+  font-family: "dorsa";
 }
 
 /****************** menu ****************/
@@ -118,6 +118,7 @@ header {
   font-style: italic;
   color: #ba6028;
   margin-top: 9rem;
+  font-family: "dorsa";
 }
 
 .højreside {
