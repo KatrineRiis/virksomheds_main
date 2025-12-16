@@ -1,0 +1,59 @@
+.card {
+  background-color: #343533;
+  color: white;
+  padding: 4%;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.pic {
+  float: right;
+  width: 60%;
+  padding: 3%;
+}
+
+.btn_mere {
+  background-color: #c0c0c0;
+  color: #a1512f;
+  border-radius: 3px 3px 3px 3px;
+  border-color: #a1512f;
+  padding: 2%;
+  margin-bottom: 20%;
+  /* margin-right: 30%;
+  margin-left: 30%; */
+  margin-top: 2%;
+  justify-content: center;
+}
+
+.pic_container {
+  position: relative;
+  display: inline-block;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #a1512f;
+  font-weight: bolder;
+  font-size: 2rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  z-index: 2;
+}
+
+.vores {
+  transform: translate(-22%, 0%);
+}
+
+.artister {
+  transform: translate(7%, 0%);
+}
+
+h1 {
+  margin-bottom: 2%;
+}
