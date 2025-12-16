@@ -1,3 +1,20 @@
+@media (min-width: 800px) {
+  .card {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .imga {
+    width: 70%;
+    margin-left: 25%;
+  }
+  .tekst {
+    min-width: 10ch;
+  }
+}
+
+body {
+  background: url(baggrund.png);
+}
 .card {
   background-color: #343533;
   color: white;
@@ -16,7 +33,7 @@ main {
   padding: 3%;
 }
 
-.btn_mere {
+/* .btn_mere {
   background-color: #c0c0c0;
   color: #a1512f;
   border-radius: 3px 3px 3px 3px;
@@ -25,9 +42,9 @@ main {
   margin-bottom: 20%;
   /* margin-right: 30%;
   margin-left: 30%; */
-  margin-top: 2%;
+/* margin-top: 2%;
   justify-content: center;
-}
+} */
 
 .pic_container {
   position: relative;
@@ -41,9 +58,10 @@ main {
   transform: translate(-50%, -50%);
   color: #a1512f;
   font-weight: bolder;
-  font-size: 2rem;
+  font-size: 3rem;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
   z-index: 2;
+  font-family: "alumni";
 }
 
 .vores {
@@ -56,4 +74,28 @@ main {
 
 h1 {
   margin-bottom: 2%;
+  font-family: "alumni";
+}
+
+.insta {
+  width: 7%;
+  margin: 2%;
+}
+
+header {
+  z-index: 10;
+}
+
+p {
+  font-family: "dorsa";
+  font-size: 30px;
+  letter-spacing: 0.1rem;
+}
+
+.btn {
+  color: #a1512f;
+  border-style: solid;
+  border-color: #a1512f;
+  text-decoration: none;
+  background-color: bisque;
 }
